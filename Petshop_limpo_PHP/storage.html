@@ -1,0 +1,69 @@
+<html>
+<head>
+    <title>Storage</title>
+    <meta charset="utf-8"/>
+    <style></style>
+    <script>
+
+     var vconf,vcort,vnome;
+     function gravar(){
+         vnome=document.getElementById("fnome").value;
+         localStorage.corf=vcorf;
+         localStorage.cort=vcorf;
+         localStorage.nome=vnome;
+     }
+    function defineCor(op,cor){
+        if(op==1){
+            document.body.style.backgroundColor=cor;
+            vcorf=cor
+        }else{
+            document.body.style.color=cor;
+            vcort=cor;
+        }
+    }
+
+        </script>
+    </head>
+<body>
+<p>localStorage - Curso de javascript</p>
+
+    <form name="dados">
+        <label>Nome:</label><br>
+        <input type="text" name="fnome" id="fnome" size="20"><br><br>
+        <label>Cor Fundo:</label><br>
+        <input type="radio" name="fcorf" onclick="defineCor(1,'#000')">Preto<br>
+        <input type="radio" name="fcorf" onclick="defineCor(1,'#fff')">Branco<br>
+        <input type="radio" name="fcorf" onclick="defineCor(1,'#f00')">Vermelho<br>
+        <input type="radio" name="fcorf" onclick="defineCor(1,'#0f0')">Verde<br>
+        <input type="radio" name="fcorf" onclick="defineCor(1,'#00f')">Azul<br>
+        <label>Cor Texto:</label>
+        <input type="radio" name="fcort" onclick="defineCor(2,'#000')">Preto<br>
+        <input type="radio" name="fcort" onclick="defineCor(2,'#fff')">Preto<br>
+        <input type="button" value="Gravar" onclick="gravar()">
+    </form>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </script>
+
+</head>
+
+
+</html>

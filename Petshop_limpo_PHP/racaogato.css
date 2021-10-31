@@ -1,0 +1,40 @@
+.header-site{
+    background-image: url(assest/imagens/gatoiamge.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    padding-top: 300px;
+    padding-bottom: 300px;
+
+}
+.content-size{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.img-site{
+    background-image: url(assest/imagens/gatoimage2.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    
+
+}
+.footer-site{
+    background-color: #333;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#contrate{
+    color: #fff;
+}
+#vermelho{
+    color: red;
+    
+}
